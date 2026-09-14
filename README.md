@@ -14,8 +14,11 @@
     <a href="https://github.com/tachyon-ops?tab=repositories">
       <img src="https://img.shields.io/badge/Repositories-85+-00f5ff?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="Repositories" />
     </a>
-    <a href="https://github.com/tachyon-ops">
-      <img src="https://img.shields.io/badge/Telemetry-10M%2B%20Msg%2FSec-38bdf8?style=for-the-badge&logo=apachekafka&logoColor=white&labelColor=0d1117" alt="Telemetry Throughput" />
+    <a href="https://calendly.com/ribeiron" target="_blank">
+      <img src="https://img.shields.io/badge/Consulting-Book_Session-38bdf8?style=for-the-badge&logo=calendly&logoColor=black&labelColor=0d1117" alt="Consulting" />
+    </a>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url" target="_blank">
+      <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0d1117" alt="Donate" />
     </a>
     <a href="https://github.com/tachyon-ops">
       <img src="https://img.shields.io/badge/Timezone-Europe%2FZurich-eab308?style=for-the-badge&logo=clock&logoColor=black&labelColor=0d1117" alt="Zurich Time" />
@@ -256,6 +259,31 @@
   <!-- 3D Isometric Commit Calendar -->
   <img src="github-metrics-isocalendar.svg" alt="3D Isometric Commit Calendar" width="100%" />
 
+</div>
+
+---
+
+### 💼 Architecture Consulting & Open Source Support
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <h4>🚀 Cloud &amp; Telemetry Architecture Consulting</h4>
+        <p>Available for high-impact advisory &amp; consulting on <strong>Millions-Event Reactive Streams, LoRaWAN / SiLA 2 / MQTT protocols, and 1M+ Dot 2D/3D Canvas visualization</strong>.</p>
+        <a href="https://calendly.com/ribeiron" target="_blank">
+          <img src="https://img.shields.io/badge/Book_Session-Calendly-00f5ff?style=for-the-badge&logo=calendly&logoColor=black" alt="Book on Calendly" />
+        </a>
+      </td>
+      <td width="50%" align="center" valign="top">
+        <h4>💖 Fuel the Open Source Engines</h4>
+        <p>If my open source libraries (<code>undp-radar</code>, <code>ruinx</code>, <code>kiss-react-state</code>, <code>react_vue_ts</code>) helped your projects, consider buying a coffee or sponsoring my work!</p>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url" target="_blank">
+          <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
