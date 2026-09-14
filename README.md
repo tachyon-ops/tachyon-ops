@@ -200,7 +200,7 @@
 
 <div align="center">
   <a href="https://github.com/tachyon-ops">
-    <img src="https://streak-stats.demolab.com/?user=tachyon-ops&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5ff&fire=38bdf8&currStreakLabel=00f5ff&sideNums=38bdf8&sideLabels=8b949e" alt="GitHub Streak" width="540" />
+    <img src="assets/combat-telemetry.svg" alt="Combat & Streak Telemetry" width="100%" />
   </a>
 </div>
 

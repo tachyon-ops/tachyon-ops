@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b12" />
+      <stop offset="50%" stop-color="#0c1322" />
+      <stop offset="100%" stop-color="#05080e" />
+    </linearGradient>
+
+    <!-- Cyan Neon -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Amber Gold -->
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <filter id="cardGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes metricPulse {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #00f5ff); }
+      }
+      .metric-anim { animation: metricPulse 3.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="720" height="180" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Subtle Top Accent Line -->
+  <line x1="20" y1="1" x2="700" y2="1" stroke="url(#cyanGrad)" stroke-width="1.5" opacity="0.6" />
+
+  <!-- Card Header -->
+  <g transform="translate(36, 32)">
+    <circle cx="6" cy="6" r="4" fill="#00f5ff" class="metric-anim" />
+    <text x="20" y="10" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#00f5ff" letter-spacing="2">
+      ⚡ TACHYON TELEMETRY // REAL-TIME METRICS
+    </text>
+    <text x="648" y="10" font-family="'Fira Code', monospace" font-size="10" fill="#64748b" text-anchor="end">
+      SWITZERLAND // EUROPE/ZURICH
+    </text>
+  </g>
+
+  <!-- Metrics Grid (4 Columns) -->
+  <g transform="translate(36, 60)">
+    <!-- Column 1: Annual Contributions -->
+    <g transform="translate(0, 0)">
+      <rect width="145" height="74" rx="8" fill="#0c192c" stroke="#00f5ff" stroke-width="0.8" opacity="0.9" />
+      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="url(#cyanGrad)" text-anchor="middle" filter="url(#cardGlow)">
+        3,079
+      </text>
+      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1">
+        YEARLY COMMITS
+      </text>
+    </g>
+
+    <!-- Column 2: Total Commits -->
+    <g transform="translate(165, 0)">
+      <rect width="145" height="74" rx="8" fill="#0c192c" stroke="#38bdf8" stroke-width="0.8" opacity="0.9" />
+      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="#38bdf8" text-anchor="middle">
+        2,771+
+      </text>
+      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1">
+        CAREER COMMITS
+      </text>
+    </g>
+
+    <!-- Column 3: Repositories -->
+    <g transform="translate(330, 0)">
+      <rect width="145" height="74" rx="8" fill="#1c1917" stroke="#eab308" stroke-width="0.8" opacity="0.9" />
+      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="url(#amberGrad)" text-anchor="middle">
+        85
+      </text>
+      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#fef08a" text-anchor="middle" letter-spacing="1">
+        REPOSITORIES
+      </text>
+    </g>
+
+    <!-- Column 4: Experience -->
+    <g transform="translate(495, 0)">
+      <rect width="145" height="74" rx="8" fill="#052e16" stroke="#10b981" stroke-width="0.8" opacity="0.9" />
+      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="#34d399" text-anchor="middle">
+        15 YRS
+      </text>
+      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">
+        SINCE 2011
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Status Footer -->
+  <g transform="translate(360, 158)" text-anchor="middle">
+    <text font-family="'Fira Code', monospace" font-size="9" fill="#00f5ff" opacity="0.85" letter-spacing="1">
+      ⚡ ALL CLOUD &amp; TELEMETRY STREAMS NOMINAL • 0 DROPPED PACKETS
+    </text>
+  </g>
+</svg>
