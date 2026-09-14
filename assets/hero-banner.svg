@@ -22,6 +22,12 @@
       <stop offset="100%" stop-color="#ca8a04" />
     </linearGradient>
 
+    <!-- Green Pulse Gradient -->
+    <linearGradient id="greenPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
     <!-- Beam Glow Filter -->
     <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur1" />
@@ -51,11 +57,11 @@
     <style>
       @keyframes pulseGlow {
         0%, 100% { opacity: 0.65; filter: drop-shadow(0 0 4px #00f5ff); }
-        50% { opacity: 1; filter: drop-shadow(0 0 12px #00f5ff); }
+        50% { opacity: 1; filter: drop-shadow(0 0 14px #00f5ff); }
       }
       @keyframes runeGlow {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 0.9; }
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.85; }
       }
       @keyframes warpStream {
         0% { transform: translateX(-960px); opacity: 0; }
@@ -63,15 +69,15 @@
         85% { opacity: 1; }
         100% { transform: translateX(960px); opacity: 0; }
       }
-      @keyframes blinkCursor {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
+      @keyframes telemetryWave {
+        0%, 100% { stroke-dashoffset: 0; }
+        50% { stroke-dashoffset: 80; }
       }
       .anim-pulse { animation: pulseGlow 4s ease-in-out infinite; }
       .anim-rune-1 { animation: runeGlow 3s ease-in-out infinite; }
       .anim-rune-2 { animation: runeGlow 3s ease-in-out infinite 1.5s; }
-      .anim-stream { animation: warpStream 5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-      .anim-cursor { animation: blinkCursor 1s infinite; }
+      .anim-stream { animation: warpStream 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .anim-telemetry { animation: telemetryWave 6s linear infinite; }
     </style>
   </defs>
 
@@ -126,85 +132,83 @@
     <circle cx="800" cy="155" r="3" fill="#00f5ff" />
   </g>
 
-  <!-- Animated Tachyon Warp Particle Stream -->
+  <!-- Animated Tachyon Telemetry Stream -->
   <g class="anim-stream">
-    <line x1="0" y1="130" x2="260" y2="130" stroke="url(#cyanNeon)" stroke-width="2.5" filter="url(#neonGlow)" />
-    <circle cx="260" cy="130" r="4" fill="#ffffff" filter="url(#neonGlow)" />
+    <line x1="0" y1="126" x2="280" y2="126" stroke="url(#cyanNeon)" stroke-width="2.5" filter="url(#neonGlow)" />
+    <circle cx="280" cy="126" r="4.5" fill="#ffffff" filter="url(#neonGlow)" />
   </g>
 
   <!-- Central Crest / Sheikah & Triforce Emblem Geometric Overlay -->
-  <g transform="translate(480, 52)" filter="url(#softGlow)">
-    <!-- Triforce Gold Glyph (Hero of Time) -->
-    <polygon points="0,-22 18,12 -18,12" fill="none" stroke="url(#goldGlow)" stroke-width="1.8" class="anim-pulse" />
-    <polygon points="0,-4 9,12 -9,12" fill="none" stroke="url(#goldGlow)" stroke-width="1.2" opacity="0.7" />
-    <!-- Flanking Neon Orbit Wings -->
-    <path d="M -32 6 Q -55 -15 -80 0 Q -50 18 -26 12" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
-    <path d="M 32 6 Q 55 -15 80 0 Q 50 18 26 12" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
+  <g transform="translate(480, 48)" filter="url(#softGlow)">
+    <polygon points="0,-20 16,10 -16,10" fill="none" stroke="url(#goldGlow)" stroke-width="1.8" class="anim-pulse" />
+    <polygon points="0,-4 8,10 -8,10" fill="none" stroke="url(#goldGlow)" stroke-width="1.2" opacity="0.7" />
+    <path d="M -30 5 Q -55 -15 -80 0 Q -50 18 -24 10" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
+    <path d="M 30 5 Q 55 -15 80 0 Q 50 18 24 10" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
   </g>
 
   <!-- Main Hero Title & Identity -->
   <g id="textContent">
     <!-- Top System Status Line -->
-    <g transform="translate(480, 92)" text-anchor="middle">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Code', monospace" font-size="11" font-weight="700" fill="#00f5ff" letter-spacing="4" opacity="0.85">
-        ⚡ TACHYON PROTOCOL // WARP MATRIX V15.0 ⚡
+    <g transform="translate(480, 84)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#00f5ff" letter-spacing="4" opacity="0.9">
+        ⚡ TACHYON TELEMETRY CORE // HIGH-THROUGHPUT CLOUD ⚡
       </text>
     </g>
 
     <!-- Main Name: LINK -->
-    <g transform="translate(480, 142)" text-anchor="middle">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'Arial Black', sans-serif" font-size="52" font-weight="900" fill="url(#cyanNeon)" letter-spacing="8" filter="url(#softGlow)">
+    <g transform="translate(480, 134)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'Arial Black', sans-serif" font-size="50" font-weight="900" fill="url(#cyanNeon)" letter-spacing="8" filter="url(#softGlow)">
         LINK
       </text>
     </g>
 
-    <!-- Handle & Title -->
-    <g transform="translate(480, 172)" text-anchor="middle">
-      <text font-family="'Fira Code', 'Courier New', monospace" font-size="14" font-weight="600" fill="#e2e8f0" letter-spacing="3">
-        <tspan fill="#00f5ff">@</tspan>tachyon-ops <tspan fill="#eab308">|</tspan> HERO OF CODE &amp; SYSTEMS
+    <!-- Role Subtitle -->
+    <g transform="translate(480, 166)" text-anchor="middle">
+      <text font-family="'Fira Code', 'Courier New', monospace" font-size="13.5" font-weight="700" fill="#e2e8f0" letter-spacing="2">
+        <tspan fill="#00f5ff">HEAD OF CLOUD &amp; TELEMETRY</tspan> <tspan fill="#eab308">|</tspan> <tspan fill="#bae6fd">SYSTEMS &amp; GRAPHICS ARCHITECT</tspan>
       </text>
     </g>
 
-    <!-- Status Badges / Tech HUD Tags -->
-    <g transform="translate(480, 214)" text-anchor="middle">
-      <!-- Badge 1: 15 Years XP -->
-      <g transform="translate(-230, 0)">
-        <rect x="-65" y="-14" width="130" height="26" rx="13" fill="#0c192c" stroke="#00f5ff" stroke-width="1" opacity="0.9" />
-        <circle cx="-48" cy="-1" r="3.5" fill="#00f5ff" />
-        <text x="5" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#bae6fd" text-anchor="middle" letter-spacing="1">
-          15 YRS XP
+    <!-- Telemetry Badges / Tech HUD Tags -->
+    <g transform="translate(480, 212)" text-anchor="middle">
+      <!-- Badge 1: 10M+ Msg/Sec -->
+      <g transform="translate(-275, 0)">
+        <rect x="-85" y="-14" width="170" height="27" rx="13.5" fill="#0c192c" stroke="#00f5ff" stroke-width="1" opacity="0.9" />
+        <circle cx="-68" cy="-0.5" r="3.5" fill="#00f5ff" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#bae6fd" text-anchor="middle" letter-spacing="0.5">
+          ⚡ 10M+ MSG/SEC
         </text>
       </g>
 
-      <!-- Badge 2: Zurich Coordinates -->
-      <g transform="translate(-75, 0)">
-        <rect x="-70" y="-14" width="140" height="26" rx="13" fill="#0c192c" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
-        <circle cx="-52" cy="-1" r="3.5" fill="#38bdf8" />
-        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#bae6fd" text-anchor="middle" letter-spacing="1">
-          🇨🇭 ZURICH, CH
+      <!-- Badge 2: Protocols -->
+      <g transform="translate(-90, 0)">
+        <rect x="-90" y="-14" width="180" height="27" rx="13.5" fill="#0c192c" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+        <circle cx="-72" cy="-0.5" r="3.5" fill="#38bdf8" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#bae6fd" text-anchor="middle" letter-spacing="0.5">
+          📡 LoRaWAN • SiLA 2 • MQTT
         </text>
       </g>
 
-      <!-- Badge 3: Master Sword Tech -->
-      <g transform="translate(85, 0)">
-        <rect x="-75" y="-14" width="150" height="26" rx="13" fill="#1c1917" stroke="#eab308" stroke-width="1" opacity="0.9" />
-        <circle cx="-58" cy="-1" r="3.5" fill="#eab308" />
-        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#fef08a" text-anchor="middle" letter-spacing="1">
-          ⚔️ RUST &amp; TS HACKER
+      <!-- Badge 3: 1M+ Dot 3D Canvas -->
+      <g transform="translate(100, 0)">
+        <rect x="-90" y="-14" width="180" height="27" rx="13.5" fill="#1c1917" stroke="#eab308" stroke-width="1" opacity="0.9" />
+        <circle cx="-72" cy="-0.5" r="3.5" fill="#eab308" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#fef08a" text-anchor="middle" letter-spacing="0.5">
+          🧊 1M+ DOT 3D CANVAS
         </text>
       </g>
 
-      <!-- Badge 4: Core Status -->
-      <g transform="translate(240, 0)">
-        <rect x="-65" y="-14" width="130" height="26" rx="13" fill="#052e16" stroke="#10b981" stroke-width="1" opacity="0.9" />
-        <circle cx="-48" cy="-1" r="3.5" fill="#10b981" />
-        <text x="5" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">
-          CORE NOMINAL
+      <!-- Badge 4: Zurich & 15 Yrs XP -->
+      <g transform="translate(285, 0)">
+        <rect x="-85" y="-14" width="170" height="27" rx="13.5" fill="#052e16" stroke="#10b981" stroke-width="1" opacity="0.9" />
+        <circle cx="-68" cy="-0.5" r="3.5" fill="#10b981" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#a7f3d0" text-anchor="middle" letter-spacing="0.5">
+          🇨🇭 ZURICH // 15Y XP
         </text>
       </g>
     </g>
   </g>
 
   <!-- Bottom Sheikah Energy Line -->
-  <line x1="160" y1="238" x2="800" y2="238" stroke="url(#cyanNeon)" stroke-width="1" opacity="0.4" stroke-dasharray="8 4 2 4" />
+  <line x1="120" y1="240" x2="840" y2="240" stroke="url(#cyanNeon)" stroke-width="1" opacity="0.4" stroke-dasharray="8 4 2 4" />
 </svg>

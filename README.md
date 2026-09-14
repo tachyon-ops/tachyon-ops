@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/tachyon-ops">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00F5FF&center=true&vCenter=true&width=650&lines=Initializing+Tachyon+Hyperdrive...;Link+%2F%2F+Systems+Architect+%26+UI+Alchemist;15+Earth+Years+in+the+Open+Source+Wild;Wielding+Rust%2C+TypeScript+%26+Next-Gen+UIs;Bending+Code%2C+Time+%26+Pixels+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Initializing+Tachyon+Telemetry+Core...;Head+of+Cloud+%2F%2F+Systems+%26+Graphics+Architect;Streaming+Millions+of+Telemetry+Events%2FSec;LoRaWAN+%E2%80%A2+SiLA+2+%E2%80%A2+MQTT+%E2%80%A2+WebSockets;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
   </a>
 
   <p>
@@ -15,79 +15,142 @@
       <img src="https://img.shields.io/badge/Repositories-85+-00f5ff?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="Repositories" />
     </a>
     <a href="https://github.com/tachyon-ops">
-      <img src="https://img.shields.io/badge/Commits-2700+-38bdf8?style=for-the-badge&logo=git&logoColor=black&labelColor=0d1117" alt="Commits" />
+      <img src="https://img.shields.io/badge/Telemetry-10M%2B%20Msg%2FSec-38bdf8?style=for-the-badge&logo=apachekafka&logoColor=white&labelColor=0d1117" alt="Telemetry Throughput" />
     </a>
     <a href="https://github.com/tachyon-ops">
-      <img src="https://img.shields.io/badge/Swiss_Timezone-Europe%2FZurich-eab308?style=for-the-badge&logo=clock&logoColor=black&labelColor=0d1117" alt="Zurich Time" />
+      <img src="https://img.shields.io/badge/Timezone-Europe%2FZurich-eab308?style=for-the-badge&logo=clock&logoColor=black&labelColor=0d1117" alt="Zurich Time" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=tachyon-ops&color=00f5ff&style=for-the-badge&label=CHRONO+WARP+HITS" alt="Visitor Counter" />
+    <img src="https://komarev.com/ghpvc/?username=tachyon-ops&color=00f5ff&style=for-the-badge&label=CHRONO+TELEMETRY+HITS" alt="Visitor Counter" />
   </p>
 
 </div>
 
 ---
 
-### 📡 Sheikah Slate // Chrono-Terminal HUD
+### 📡 Telemetry Station // Chrono-Terminal HUD
 
 ```yaml
-┌──[ Chrono-Terminal // Link @ tachyon-ops ]
-│  🛡️ Class       : Senior Systems Architect & Reactive UI Alchemist
-│  ⏳ Veteran Rank : 15 Earth Years on GitHub (Active since 2011)
-│  📍 Coordinates  : Zurich, Switzerland (Europe/Zurich)
-│  ⚔️ Relics       : Master Sword (Rust) • Sheikah Slate (TypeScript / React)
-│  🧪 Prime Focus  : High-performance compilers, reactive UI engines & seamless interop
-│  ⚡ Warp Status  : 100% Core Output | All Systems Nominal
-└──[ Transmission  : "It's dangerous to code alone! Take this." ]
+┌──[ Tachyon Telemetry Station // Link @ tachyon-ops ]
+│  ⚡ Role         : Head of Cloud & Telemetry Architect
+│  🚀 Throughput   : High-Throughput Reactive Streams (Millions of Telemetry Events/sec)
+│  🌐 Protocols    : LoRaWAN • SiLA 2 (Lab Automation) • MQTT • WebSockets • gRPC
+│  🧊 Graphics     : Extreme Performance 2D & 3D Canvas (1M+ Data Points / Dots at 60 FPS)
+│  🏛️ Domains      : Industrial IoT • Smart Meter Systems • Fintech Telemetry • Lab Robotics
+│  🇺🇳 Global Duty  : UN Volunteer — United Nations Development Programme (UNDP Tech Radar)
+│  ⚔️ Core Relics  : Rust (Master Sword) • WebGPU / WASM • Go • C++ • TypeScript
+│  🔋 System State : 100% Core Nominal | Fueled by Hard, Impossible Engineering Challenges
+└──[ Transmission  : "If it doesn't push the hardware to its limits, it's not fast enough." ]
 ```
 
 ---
 
-### 🐍 The Chrono-Snake
+### 🌍 Global Humanitarian Impact & UN Volunteering
+
+<table>
+  <tr>
+    <td width="100%">
+      <div align="left">
+        <h3>🇺🇳 <a href="https://github.com/tachyon-ops/undp-radar">undp-radar</a> // United Nations Development Programme</h3>
+        <p>
+          Volunteer initiative for the <strong>United Nations (UNDP)</strong>. Engineered an interactive, multi-horizon <strong>Technology Radar PoC &amp; Engine</strong> used to evaluate, map, and visualize emerging technological breakthroughs, strategic horizons, and humanitarian development use cases worldwide.
+        </p>
+        <p>
+          <a href="https://www.npmjs.com/package/undp-radar">
+            <img src="https://img.shields.io/badge/NPM-undp--radar-CB3837?style=flat-square&logo=npm&logoColor=white" alt="NPM Package" />
+          </a>
+          <img src="https://img.shields.io/badge/Organization-United%20Nations%20(UNDP)-0082c9?style=flat-square&logo=unitednations&logoColor=white" alt="UN" />
+          <img src="https://img.shields.io/badge/Technology-React%20%2B%20Canvas%20Radar-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+          <img src="https://img.shields.io/badge/Scope-Global%20Humanitarian%20Impact-10b981?style=flat-square" alt="Impact" />
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- CONNECT4_START -->
+<div align="center">
+
+### 🎮 Community vs Link Bot // Connect Four
+
+| [1](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|1&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+1!+Link+Bot+will+respond+automatically.) | [2](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|2&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+2!+Link+Bot+will+respond+automatically.) | [3](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|3&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+3!+Link+Bot+will+respond+automatically.) | [4](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|4&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+4!+Link+Bot+will+respond+automatically.) | [5](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|5&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+5!+Link+Bot+will+respond+automatically.) | [6](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|6&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+6!+Link+Bot+will+respond+automatically.) | [7](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|drop|red|7&body=Click+'Submit+new+issue'+to+drop+your+disc+in+Column+7!+Link+Bot+will+respond+automatically.) |
+| --- | --- | --- | --- | --- | --- | --- |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+| ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ | ⚪ |
+
+<br/>
+
+🔴 **Your turn! Click a column number above [1–7] to drop a Red disc.** • [Reset](https://github.com/tachyon-ops/tachyon-ops/issues/new?title=connect4|reset&body=Click+'Submit+new+issue'+to+reset+the+game+board!)
+
+<br/>
+
+<p>
+  <img src="https://img.shields.io/badge/Total_Moves-0-00f5ff?style=flat-square&logo=gamepad" />
+  <img src="https://img.shields.io/badge/Games_Played-0-38bdf8?style=flat-square" />
+  <img src="https://img.shields.io/badge/Community_Wins-0-ef4444?style=flat-square" />
+  <img src="https://img.shields.io/badge/Link_Bot_Wins-0-eab308?style=flat-square" />
+</p>
+
+<sub>Clicking a column opens a pre-filled GitHub Issue. Submitting it triggers a GitHub Action that plays your move and Link Bot's counter-move in ~15 seconds.</sub>
+
+</div>
+<!-- CONNECT4_END -->
+
+---
+
+### 🐍 The Chrono-Snake Eating Contributions
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-    <img alt="Contribution Snake" src="assets/github-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tachyon-ops/tachyon-ops/master/assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tachyon-ops/tachyon-ops/master/assets/github-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/tachyon-ops/tachyon-ops/master/assets/github-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
 ---
 
-### ⚔️ Active Quests & Standout Inventions
+### ⚔️ High-Throughput Systems & Standout Inventions
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h4>🦀 <a href="https://github.com/tachyon-ops/ruinx">ruinx</a></h4>
-      <p>A daring, high-velocity experiment to create a native <strong>Rust UI engine using JSX syntax</strong>. Pushing the boundaries of compile-time ergonomic GUI development.</p>
+      <p>A daring, high-velocity experiment to create a native <strong>Rust UI engine using JSX syntax</strong>. Pushing compile-time ergonomics for high-performance native user interfaces.</p>
       <p>
         <img src="https://img.shields.io/badge/Language-Rust-DEA584?style=flat-square&logo=rust&logoColor=white" />
-        <img src="https://img.shields.io/badge/Status-Experimental-00f5ff?style=flat-square" />
+        <img src="https://img.shields.io/badge/Engine-GUI%20JSX-00f5ff?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/tachyon-ops/react_vue_ts">react_vue_ts</a></h4>
-      <p><strong>Vuera TypeScript</strong> interoperability library. Seamlessly mount and pass state between React and Vue components with rigorous type safety.</p>
+      <h4>📡 <a href="https://github.com/tachyon-ops/react_radar">react_radar</a></h4>
+      <p>Proprietary <strong>multi-dimensional interactive radar tech</strong> for dense data distribution and high-throughput real-time spatial event monitoring.</p>
       <p>
-        <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Framework-React%20%2B%20Vue-4FC08D?style=flat-square" />
+        <img src="https://img.shields.io/badge/Domain-Telemetry%20Radar-38bdf8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Canvas-High%20Performance-10b981?style=flat-square" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/tachyon-ops/csts">csts</a></h4>
-      <p>Strict type-level utilities and architectural helpers engineered for scalable modern TypeScript codebases.</p>
+      <h4>⚡ <a href="https://github.com/tachyon-ops/react_vue_ts">react_vue_ts</a></h4>
+      <p><strong>Vuera TypeScript</strong> interoperability library. High-performance bidirectional mounting and state synchronization between React and Vue runtimes with zero type compromise.</p>
       <p>
         <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Framework-React%20%2B%20Vue-4FC08D?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>💫 <a href="https://github.com/tachyon-ops/kiss-react-state">kiss-react-state</a></h4>
-      <p>Zero-bloat, elegant state management following the classic <em>Keep It Simple, Stupid</em> philosophy.</p>
+      <h4>⛓️ <a href="https://github.com/tachyon-ops/rust_pos_blockchain">rust_pos_blockchain</a></h4>
+      <p>High-concurrency <strong>Proof-of-Stake blockchain engine</strong> built in Rust with real-time WebSocket telemetric feeds and distributed p2p state broadcast.</p>
       <p>
-        <img src="https://img.shields.io/badge/Pattern-State%20Engine-61DAFB?style=flat-square&logo=react&logoColor=white" />
+        <img src="https://img.shields.io/badge/Language-Rust-DEA584?style=flat-square&logo=rust&logoColor=white" />
+        <img src="https://img.shields.io/badge/Protocol-WebSockets-2496ED?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -95,49 +158,50 @@
 
 ---
 
-### 🎒 Weapon Arsenal & Tech Inventory
+### 🎒 Weapon Arsenal // Cloud, Telemetry & Graphics Mastery
 
 <div align="center">
 
-#### Systems & Core Engines
+#### Cloud, Distributed Systems & Telemetry Protocols
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![LoRaWAN](https://img.shields.io/badge/LoRaWAN-0072C6?style=for-the-badge&logo=thethingsnetwork&logoColor=white)
+![SiLA 2](https://img.shields.io/badge/SiLA_2-Lab_Automation-10b981?style=for-the-badge&logo=robot&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+#### High-Performance & Low-Level Compute
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white&color=DEA584)
+![WebGPU](https://img.shields.io/badge/WebGPU-WGPU-38bdf8?style=for-the-badge&logo=webassembly&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-#### Reactive UI & Web Frontend
+#### Million-Dot 2D/3D Graphics & Real-Time Dashboards
+![Canvas API](https://img.shields.io/badge/Canvas_2D%2F3D-1M%2B_Dots-00f5ff?style=for-the-badge)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-#### Tooling, Cloud & Runtimes
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+#### Mission-Critical Domains
+![Smart Metering](https://img.shields.io/badge/Smart_Meter_Systems-IoT-f59e0b?style=for-the-badge)
+![Fintech](https://img.shields.io/badge/Fintech_Telemetry-High_Frequency-10b981?style=for-the-badge)
+![Executive KPIs](https://img.shields.io/badge/Live_KPIs-Real_Time-00f5ff?style=for-the-badge)
 
 </div>
 
 ---
 
-### 📊 Combat & Mastery Analytics
+### 📊 Combat & Streak Telemetry
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=tachyon-ops&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=38bdf8&text_color=e2e8f0" alt="GitHub Stats" width="100%" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com/?user=tachyon-ops&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5ff&fire=38bdf8&currStreakLabel=00f5ff" alt="GitHub Streak" width="100%" />
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/tachyon-ops">
+    <img src="https://streak-stats.demolab.com/?user=tachyon-ops&theme=tokyonight&hide_border=true&background=0d1117&ring=00f5ff&fire=38bdf8&currStreakLabel=00f5ff&sideNums=38bdf8&sideLabels=8b949e" alt="GitHub Streak" width="540" />
+  </a>
 </div>
 
 ---
@@ -151,22 +215,13 @@
 
   <br/><br/>
 
-  <!-- 3D Isometric Calendar & Badges side-by-side -->
-  <table border="0">
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <img src="github-metrics-isocalendar.svg" alt="3D Isometric Commit Calendar" width="100%" />
-      </td>
-      <td width="50%" align="center" valign="top">
-        <img src="github-metrics-achievements.svg" alt="GitHub Achievements" width="100%" />
-      </td>
-    </tr>
-  </table>
+  <!-- 3D Isometric Commit Calendar -->
+  <img src="github-metrics-isocalendar.svg" alt="3D Isometric Commit Calendar" width="100%" />
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>⚡ Powered by <strong>lowlighter/metrics</strong> &amp; <strong>Platane/snk</strong> • Crafted with Tachyon Warp Speed // 2026</sub>
+  <sub>⚡ Powered by <strong>lowlighter/metrics</strong> &amp; <strong>Platane/snk</strong> • Engineered with Tachyon Warp Speed // 2026</sub>
 </div>
