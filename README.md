@@ -50,22 +50,88 @@
   <tr>
     <td width="100%">
       <div align="left">
-        <h3>🇺🇳 <a href="https://github.com/tachyon-ops/undp-radar">undp-radar</a> // United Nations Development Programme</h3>
+        <h3>🇺🇳 <a href="https://drrtechradar.org/">Frontier Technology Radar (FTR4DRR)</a> // United Nations Development Programme</h3>
         <p>
-          Volunteer initiative for the <strong>United Nations (UNDP)</strong>. Engineered an interactive, multi-horizon <strong>Technology Radar PoC &amp; Engine</strong> used to evaluate, map, and visualize emerging technological breakthroughs, strategic horizons, and humanitarian development use cases worldwide.
+          Volunteer initiative for the <strong>United Nations (UNDP)</strong>, in partnership with the <strong>SDG AI Lab</strong> and the <strong>Connecting Business initiative (CBi)</strong>. Engineered an interactive, multi-horizon <strong>Technology Radar Engine</strong> to systematically map, evaluate, and track emerging frontier technologies (AI, IoT, Drones, GIS) across disaster risk reduction, crisis response, and global humanitarian development horizons.
         </p>
         <p>
-          <a href="https://www.npmjs.com/package/undp-radar">
-            <img src="https://img.shields.io/badge/NPM-undp--radar-CB3837?style=flat-square&logo=npm&logoColor=white" alt="NPM Package" />
+          <a href="https://drrtechradar.org/">
+            <img src="https://img.shields.io/badge/Live_Platform-drrtechradar.org-00f5ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Platform" />
           </a>
-          <img src="https://img.shields.io/badge/Organization-United%20Nations%20(UNDP)-0082c9?style=flat-square&logo=unitednations&logoColor=white" alt="UN" />
-          <img src="https://img.shields.io/badge/Technology-React%20%2B%20Canvas%20Radar-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-          <img src="https://img.shields.io/badge/Scope-Global%20Humanitarian%20Impact-10b981?style=flat-square" alt="Impact" />
+          <a href="https://github.com/SDG-AI-Lab/Digital_Technologies_Radar">
+            <img src="https://img.shields.io/badge/UN_Repo-SDG--AI--Lab%2FDigital__Technologies__Radar-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="UN Repo" />
+          </a>
+          <a href="https://www.npmjs.com/package/undp-radar">
+            <img src="https://img.shields.io/badge/NPM_Package-undp--radar-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM Package" />
+          </a>
+          <a href="https://github.com/tachyon-ops/undp-radar">
+            <img src="https://img.shields.io/badge/Library_Source-tachyon--ops%2Fundp--radar-38bdf8?style=for-the-badge&logo=react&logoColor=black" alt="Library Source" />
+          </a>
         </p>
+        
+        <details>
+          <summary><strong>📦 View <code>undp-radar</code> Library Architecture &amp; Quickstart</strong></summary>
+          <br/>
+          <p>The library provides an ergonomic React + D3 multi-horizon radar generator designed for extreme visual clarity across complex multi-quadrant datasets:</p>
+
+```bash
+npm install undp-radar
+# or
+yarn add undp-radar
+```
+
+```tsx
+import React from 'react';
+import { RadarProvider, DataProvider, RadarApp, RadarDataGenerator } from 'undp-radar';
+import 'undp-radar/dist/index.css';
+
+export const UNTechRadar: React.FC = () => (
+  <RadarProvider>
+    <DataProvider>
+      <RadarDataGenerator />
+      {/* High-performance multi-horizon radar rendering */}
+      <RadarApp />
+    </DataProvider>
+  </RadarProvider>
+);
+```
+        </details>
       </div>
     </td>
   </tr>
 </table>
+
+---
+
+### 🇨🇭 Zurich Tech Ecosystem & Events Radar
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="25%" align="center">
+        <h4>🦀 <a href="https://rust-zuerisee.ch/">Rust Zürisee</a></h4>
+        <p>Premier Zurich Rust developer meetups &amp; deep-tech systems discussions.</p>
+        <a href="https://www.meetup.com/Rust-Zuerisee/"><img src="https://img.shields.io/badge/Community-Rust_Zürich-DEA584?style=flat-square&logo=rust&logoColor=white" /></a>
+      </td>
+      <td width="25%" align="center">
+        <h4>🤖 <a href="https://ai-x-summit.ethz.ch/">AI+X Summit</a></h4>
+        <p>Flagship Swiss AI, ML &amp; Systems summit hosted at StageOne, Oerlikon.</p>
+        <img src="https://img.shields.io/badge/Venue-StageOne_Oerlikon-00f5ff?style=flat-square" />
+      </td>
+      <td width="25%" align="center">
+        <h4>🏔️ <a href="https://swissdevjobs.ch/tech-events-switzerland">SwissDev Events</a></h4>
+        <p>Curated radar for developer conferences, hackathons, and cloud summits.</p>
+        <img src="https://img.shields.io/badge/Region-Zurich_CH-eab308?style=flat-square" />
+      </td>
+      <td width="25%" align="center">
+        <h4>⚡ <a href="https://www.startupticker.ch/">Startupticker.ch</a></h4>
+        <p>National hub for Swiss deep-tech innovation, IoT, and high-frequency news.</p>
+        <img src="https://img.shields.io/badge/Focus-Deep_Tech-10b981?style=flat-square" />
+      </td>
+    </tr>
+  </table>
+  <sub>📍 Based in Zurich, Switzerland. Always excited to meet fellow engineers building high-throughput systems, low-latency telemetry, or 3D graphics!</sub>
+</div>
 
 ---
 
