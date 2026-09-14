@@ -68,34 +68,6 @@
             <img src="https://img.shields.io/badge/Library_Source-tachyon--ops%2Fundp--radar-38bdf8?style=for-the-badge&logo=react&logoColor=black" alt="Library Source" />
           </a>
         </p>
-        
-        <details>
-          <summary><strong>📦 View <code>undp-radar</code> Library Architecture &amp; Quickstart</strong></summary>
-          <br/>
-          <p>The library provides an ergonomic React + D3 multi-horizon radar generator designed for extreme visual clarity across complex multi-quadrant datasets:</p>
-
-```bash
-npm install undp-radar
-# or
-yarn add undp-radar
-```
-
-```tsx
-import React from 'react';
-import { RadarProvider, DataProvider, RadarApp, RadarDataGenerator } from 'undp-radar';
-import 'undp-radar/dist/index.css';
-
-export const UNTechRadar: React.FC = () => (
-  <RadarProvider>
-    <DataProvider>
-      <RadarDataGenerator />
-      {/* High-performance multi-horizon radar rendering */}
-      <RadarApp />
-    </DataProvider>
-  </RadarProvider>
-);
-```
-        </details>
       </div>
     </td>
   </tr>
