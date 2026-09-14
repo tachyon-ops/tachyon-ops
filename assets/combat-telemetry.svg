@@ -55,47 +55,47 @@
 
   <!-- Metrics Grid (4 Columns) -->
   <g transform="translate(36, 60)">
-    <!-- Column 1: Annual Contributions -->
+    <!-- Column 1: Total Annual Contributions -->
     <g transform="translate(0, 0)">
       <rect width="145" height="74" rx="8" fill="#0c192c" stroke="#00f5ff" stroke-width="0.8" opacity="0.9" />
       <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="url(#cyanGrad)" text-anchor="middle" filter="url(#cardGlow)">
         3,079
       </text>
       <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1">
-        YEARLY COMMITS
+        ANNUAL TOTAL
       </text>
     </g>
 
-    <!-- Column 2: Total Commits -->
+    <!-- Column 2: Private & Enterprise -->
     <g transform="translate(165, 0)">
       <rect width="145" height="74" rx="8" fill="#0c192c" stroke="#38bdf8" stroke-width="0.8" opacity="0.9" />
       <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="#38bdf8" text-anchor="middle">
-        2,771+
+        3,000+
       </text>
       <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle" letter-spacing="1">
+        PRIVATE COMMITS
+      </text>
+    </g>
+
+    <!-- Column 3: Career Commits -->
+    <g transform="translate(330, 0)">
+      <rect width="145" height="74" rx="8" fill="#1c1917" stroke="#eab308" stroke-width="0.8" opacity="0.9" />
+      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="url(#amberGrad)" text-anchor="middle">
+        2,771+
+      </text>
+      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#fef08a" text-anchor="middle" letter-spacing="1">
         CAREER COMMITS
       </text>
     </g>
 
-    <!-- Column 3: Repositories -->
-    <g transform="translate(330, 0)">
-      <rect width="145" height="74" rx="8" fill="#1c1917" stroke="#eab308" stroke-width="0.8" opacity="0.9" />
-      <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="url(#amberGrad)" text-anchor="middle">
-        85
-      </text>
-      <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#fef08a" text-anchor="middle" letter-spacing="1">
-        REPOSITORIES
-      </text>
-    </g>
-
-    <!-- Column 4: Experience -->
+    <!-- Column 4: Experience & Repos -->
     <g transform="translate(495, 0)">
       <rect width="145" height="74" rx="8" fill="#052e16" stroke="#10b981" stroke-width="0.8" opacity="0.9" />
       <text x="72" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="24" font-weight="900" fill="#34d399" text-anchor="middle">
         15 YRS
       </text>
       <text x="72" y="54" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">
-        SINCE 2011
+        85+ REPOSITORIES
       </text>
     </g>
   </g>
@@ -103,7 +103,7 @@
   <!-- Bottom Status Footer -->
   <g transform="translate(360, 158)" text-anchor="middle">
     <text font-family="'Fira Code', monospace" font-size="9" fill="#00f5ff" opacity="0.85" letter-spacing="1">
-      ⚡ ALL CLOUD &amp; TELEMETRY STREAMS NOMINAL • 0 DROPPED PACKETS
+      ⚡ 3,000+ PRIVATE COMMITS IN CLOUD &amp; ENTERPRISE REPOS • 3,079 ANNUAL TOTAL
     </text>
   </g>
 </svg>
