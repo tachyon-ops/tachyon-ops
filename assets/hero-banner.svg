@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b12" />
+      <stop offset="40%" stop-color="#0c1322" />
+      <stop offset="80%" stop-color="#080e1a" />
+      <stop offset="100%" stop-color="#04070d" />
+    </linearGradient>
+
+    <!-- Cyan Neon Gradient -->
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <!-- Gold Sheikah Gradient -->
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <!-- Beam Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur1" />
+      <feGaussianBlur stdDeviation="7" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Tech Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f5ff" stroke-width="0.75" opacity="0.06" />
+      <circle cx="0" cy="0" r="1" fill="#00f5ff" opacity="0.12" />
+    </pattern>
+
+    <!-- Keyframe Animations -->
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.65; filter: drop-shadow(0 0 4px #00f5ff); }
+        50% { opacity: 1; filter: drop-shadow(0 0 12px #00f5ff); }
+      }
+      @keyframes runeGlow {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes warpStream {
+        0% { transform: translateX(-960px); opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translateX(960px); opacity: 0; }
+      }
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .anim-pulse { animation: pulseGlow 4s ease-in-out infinite; }
+      .anim-rune-1 { animation: runeGlow 3s ease-in-out infinite; }
+      .anim-rune-2 { animation: runeGlow 3s ease-in-out infinite 1.5s; }
+      .anim-stream { animation: warpStream 5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .anim-cursor { animation: blinkCursor 1s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="260" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Tech Grid Overlay -->
+  <rect width="960" height="260" rx="16" fill="url(#techGrid)" />
+
+  <!-- Outer Cyber/Zonai Hexagonal Border Frame -->
+  <rect x="8" y="8" width="944" height="244" rx="12" fill="none" stroke="#00f5ff" stroke-width="0.8" opacity="0.2" />
+  <rect x="14" y="14" width="932" height="232" rx="8" fill="none" stroke="#00f5ff" stroke-width="0.5" opacity="0.1" />
+
+  <!-- Corner Tech Brackets (Zonai/Sheikah Style) -->
+  <!-- Top Left -->
+  <path d="M 8 36 L 8 8 L 36 8" fill="none" stroke="#00f5ff" stroke-width="2.5" />
+  <line x1="14" y1="14" x2="26" y2="14" stroke="#eab308" stroke-width="1.5" />
+  <line x1="14" y1="14" x2="14" y2="26" stroke="#eab308" stroke-width="1.5" />
+  <circle cx="8" cy="8" r="2.5" fill="#00f5ff" />
+
+  <!-- Top Right -->
+  <path d="M 924 8 L 952 8 L 952 36" fill="none" stroke="#00f5ff" stroke-width="2.5" />
+  <line x1="934" y1="14" x2="946" y2="14" stroke="#eab308" stroke-width="1.5" />
+  <line x1="946" y1="14" x2="946" y2="26" stroke="#eab308" stroke-width="1.5" />
+  <circle cx="952" cy="8" r="2.5" fill="#00f5ff" />
+
+  <!-- Bottom Left -->
+  <path d="M 8 224 L 8 252 L 36 252" fill="none" stroke="#00f5ff" stroke-width="2.5" />
+  <line x1="14" y1="246" x2="26" y2="246" stroke="#eab308" stroke-width="1.5" />
+  <line x1="14" y1="234" x2="14" y2="246" stroke="#eab308" stroke-width="1.5" />
+  <circle cx="8" cy="252" r="2.5" fill="#00f5ff" />
+
+  <!-- Bottom Right -->
+  <path d="M 924 252 L 952 252 L 952 224" fill="none" stroke="#00f5ff" stroke-width="2.5" />
+  <line x1="934" y1="246" x2="946" y2="246" stroke="#eab308" stroke-width="1.5" />
+  <line x1="946" y1="234" x2="946" y2="246" stroke="#eab308" stroke-width="1.5" />
+  <circle cx="952" cy="252" r="2.5" fill="#00f5ff" />
+
+  <!-- Circuit Trace Lines Left -->
+  <g opacity="0.35" class="anim-rune-1">
+    <path d="M 36 60 L 90 60 L 115 85 L 170 85" fill="none" stroke="#00f5ff" stroke-width="1.2" />
+    <circle cx="170" cy="85" r="3" fill="#00f5ff" />
+    <path d="M 36 180 L 100 180 L 125 155 L 160 155" fill="none" stroke="#00f5ff" stroke-width="1.2" />
+    <circle cx="160" cy="155" r="3" fill="#00f5ff" />
+  </g>
+
+  <!-- Circuit Trace Lines Right -->
+  <g opacity="0.35" class="anim-rune-2">
+    <path d="M 924 60 L 870 60 L 845 85 L 790 85" fill="none" stroke="#00f5ff" stroke-width="1.2" />
+    <circle cx="790" cy="85" r="3" fill="#00f5ff" />
+    <path d="M 924 180 L 860 180 L 835 155 L 800 155" fill="none" stroke="#00f5ff" stroke-width="1.2" />
+    <circle cx="800" cy="155" r="3" fill="#00f5ff" />
+  </g>
+
+  <!-- Animated Tachyon Warp Particle Stream -->
+  <g class="anim-stream">
+    <line x1="0" y1="130" x2="260" y2="130" stroke="url(#cyanNeon)" stroke-width="2.5" filter="url(#neonGlow)" />
+    <circle cx="260" cy="130" r="4" fill="#ffffff" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- Central Crest / Sheikah & Triforce Emblem Geometric Overlay -->
+  <g transform="translate(480, 52)" filter="url(#softGlow)">
+    <!-- Triforce Gold Glyph (Hero of Time) -->
+    <polygon points="0,-22 18,12 -18,12" fill="none" stroke="url(#goldGlow)" stroke-width="1.8" class="anim-pulse" />
+    <polygon points="0,-4 9,12 -9,12" fill="none" stroke="url(#goldGlow)" stroke-width="1.2" opacity="0.7" />
+    <!-- Flanking Neon Orbit Wings -->
+    <path d="M -32 6 Q -55 -15 -80 0 Q -50 18 -26 12" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
+    <path d="M 32 6 Q 55 -15 80 0 Q 50 18 26 12" fill="none" stroke="#00f5ff" stroke-width="1.2" opacity="0.4" />
+  </g>
+
+  <!-- Main Hero Title & Identity -->
+  <g id="textContent">
+    <!-- Top System Status Line -->
+    <g transform="translate(480, 92)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Code', monospace" font-size="11" font-weight="700" fill="#00f5ff" letter-spacing="4" opacity="0.85">
+        ⚡ TACHYON PROTOCOL // WARP MATRIX V15.0 ⚡
+      </text>
+    </g>
+
+    <!-- Main Name: LINK -->
+    <g transform="translate(480, 142)" text-anchor="middle">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', 'Arial Black', sans-serif" font-size="52" font-weight="900" fill="url(#cyanNeon)" letter-spacing="8" filter="url(#softGlow)">
+        LINK
+      </text>
+    </g>
+
+    <!-- Handle & Title -->
+    <g transform="translate(480, 172)" text-anchor="middle">
+      <text font-family="'Fira Code', 'Courier New', monospace" font-size="14" font-weight="600" fill="#e2e8f0" letter-spacing="3">
+        <tspan fill="#00f5ff">@</tspan>tachyon-ops <tspan fill="#eab308">|</tspan> HERO OF CODE &amp; SYSTEMS
+      </text>
+    </g>
+
+    <!-- Status Badges / Tech HUD Tags -->
+    <g transform="translate(480, 214)" text-anchor="middle">
+      <!-- Badge 1: 15 Years XP -->
+      <g transform="translate(-230, 0)">
+        <rect x="-65" y="-14" width="130" height="26" rx="13" fill="#0c192c" stroke="#00f5ff" stroke-width="1" opacity="0.9" />
+        <circle cx="-48" cy="-1" r="3.5" fill="#00f5ff" />
+        <text x="5" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#bae6fd" text-anchor="middle" letter-spacing="1">
+          15 YRS XP
+        </text>
+      </g>
+
+      <!-- Badge 2: Zurich Coordinates -->
+      <g transform="translate(-75, 0)">
+        <rect x="-70" y="-14" width="140" height="26" rx="13" fill="#0c192c" stroke="#38bdf8" stroke-width="1" opacity="0.9" />
+        <circle cx="-52" cy="-1" r="3.5" fill="#38bdf8" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#bae6fd" text-anchor="middle" letter-spacing="1">
+          🇨🇭 ZURICH, CH
+        </text>
+      </g>
+
+      <!-- Badge 3: Master Sword Tech -->
+      <g transform="translate(85, 0)">
+        <rect x="-75" y="-14" width="150" height="26" rx="13" fill="#1c1917" stroke="#eab308" stroke-width="1" opacity="0.9" />
+        <circle cx="-58" cy="-1" r="3.5" fill="#eab308" />
+        <text x="6" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#fef08a" text-anchor="middle" letter-spacing="1">
+          ⚔️ RUST &amp; TS HACKER
+        </text>
+      </g>
+
+      <!-- Badge 4: Core Status -->
+      <g transform="translate(240, 0)">
+        <rect x="-65" y="-14" width="130" height="26" rx="13" fill="#052e16" stroke="#10b981" stroke-width="1" opacity="0.9" />
+        <circle cx="-48" cy="-1" r="3.5" fill="#10b981" />
+        <text x="5" y="4" font-family="'Fira Code', monospace" font-size="10.5" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">
+          CORE NOMINAL
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Sheikah Energy Line -->
+  <line x1="160" y1="238" x2="800" y2="238" stroke="url(#cyanNeon)" stroke-width="1" opacity="0.4" stroke-dasharray="8 4 2 4" />
+</svg>

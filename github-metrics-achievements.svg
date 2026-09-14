@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="100%" height="auto">
+  <defs>
+    <linearGradient id="achBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="goldBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#a16207" />
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="280" rx="10" fill="url(#achBg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title Header -->
+  <g transform="translate(24, 32)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', monospace" font-size="14" font-weight="700" fill="#f0f6fc">
+      🏆 GitHub Achievements &amp; Badges
+    </text>
+    <text y="20" font-family="'Fira Code', monospace" font-size="10.5" fill="#8b949e">
+      Unlocked Trophies &amp; Secret Badges // lowlighter/metrics
+    </text>
+  </g>
+
+  <!-- Badges Grid -->
+  <g transform="translate(36, 90)">
+    <!-- Badge 1: Master / Pull Shark -->
+    <g transform="translate(20, 20)">
+      <circle cx="28" cy="28" r="26" fill="#1e293b" stroke="url(#goldBadge)" stroke-width="2"/>
+      <text x="28" y="36" font-size="24" text-anchor="middle">🦈</text>
+      <text x="28" y="70" font-family="'Fira Code', monospace" font-size="10" fill="#f1f5f9" text-anchor="middle" font-weight="600">Pull Shark</text>
+      <text x="28" y="84" font-family="'Fira Code', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle">x2 Opened</text>
+    </g>
+
+    <!-- Badge 2: Quickdraw / YOLO -->
+    <g transform="translate(130, 20)">
+      <circle cx="28" cy="28" r="26" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+      <text x="28" y="36" font-size="24" text-anchor="middle">🚀</text>
+      <text x="28" y="70" font-family="'Fira Code', monospace" font-size="10" fill="#f1f5f9" text-anchor="middle" font-weight="600">YOLO</text>
+      <text x="28" y="84" font-family="'Fira Code', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle">Merged w/o PR</text>
+    </g>
+
+    <!-- Badge 3: Galaxy Brain -->
+    <g transform="translate(240, 20)">
+      <circle cx="28" cy="28" r="26" fill="#1e293b" stroke="#a855f7" stroke-width="2"/>
+      <text x="28" y="36" font-size="24" text-anchor="middle">🧠</text>
+      <text x="28" y="70" font-family="'Fira Code', monospace" font-size="10" fill="#f1f5f9" text-anchor="middle" font-weight="600">Galaxy Brain</text>
+      <text x="28" y="84" font-family="'Fira Code', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle">Answers</text>
+    </g>
+
+    <!-- Badge 4: Pair Extraordinaire -->
+    <g transform="translate(350, 20)">
+      <circle cx="28" cy="28" r="26" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+      <text x="28" y="36" font-size="24" text-anchor="middle">🤝</text>
+      <text x="28" y="70" font-family="'Fira Code', monospace" font-size="10" fill="#f1f5f9" text-anchor="middle" font-weight="600">Co-authored</text>
+      <text x="28" y="84" font-family="'Fira Code', monospace" font-size="8.5" fill="#94a3b8" text-anchor="middle">2700+ Commits</text>
+    </g>
+  </g>
+
+  <!-- Status Footer -->
+  <g transform="translate(240, 252)" text-anchor="middle">
+    <text font-family="'Fira Code', monospace" font-size="10.5" fill="#eab308" font-weight="600" letter-spacing="1">
+      ⚡ ACHIEVEMENTS SYNCING VIA GITHUB ACTIONS ⚡
+    </text>
+  </g>
+</svg>

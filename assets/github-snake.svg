@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="auto">
+  <defs>
+    <linearGradient id="snakeGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <style>
+      @keyframes snakeMoveLight {
+        0% { transform: translateX(0px); }
+        50% { transform: translateX(280px); }
+        100% { transform: translateX(0px); }
+      }
+      .snake-body-light {
+        animation: snakeMoveLight 12s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="850" height="140" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Matrix Dots Background Pattern Simulation -->
+  <g opacity="0.6">
+    <rect x="30" y="24" width="10" height="10" rx="2" fill="#ebedf0"/>
+    <rect x="44" y="24" width="10" height="10" rx="2" fill="#9be9a8"/>
+    <rect x="58" y="24" width="10" height="10" rx="2" fill="#40c463"/>
+    <rect x="72" y="24" width="10" height="10" rx="2" fill="#30a14e"/>
+    <rect x="86" y="24" width="10" height="10" rx="2" fill="#216e39"/>
+    <rect x="100" y="24" width="10" height="10" rx="2" fill="#ebedf0"/>
+    <rect x="114" y="24" width="10" height="10" rx="2" fill="#9be9a8"/>
+    <rect x="128" y="24" width="10" height="10" rx="2" fill="#30a14e"/>
+    <rect x="142" y="24" width="10" height="10" rx="2" fill="#ebedf0"/>
+    <rect x="156" y="24" width="10" height="10" rx="2" fill="#40c463"/>
+    <rect x="170" y="24" width="10" height="10" rx="2" fill="#216e39"/>
+    <rect x="184" y="24" width="10" height="10" rx="2" fill="#ebedf0"/>
+    <rect x="198" y="24" width="10" height="10" rx="2" fill="#9be9a8"/>
+    <rect x="212" y="24" width="10" height="10" rx="2" fill="#30a14e"/>
+    <rect x="226" y="24" width="10" height="10" rx="2" fill="#216e39"/>
+    <rect x="240" y="24" width="10" height="10" rx="2" fill="#ebedf0"/>
+  </g>
+
+  <!-- Animated Snake Body -->
+  <g class="snake-body-light">
+    <rect x="380" y="38" width="10" height="10" rx="2" fill="#0284c7"/>
+    <rect x="394" y="38" width="10" height="10" rx="2" fill="#0ea5e9"/>
+    <rect x="408" y="38" width="10" height="10" rx="2" fill="#38bdf8"/>
+    <rect x="408" y="52" width="10" height="10" rx="2" fill="#38bdf8"/>
+    <circle cx="383" cy="42" r="1.2" fill="#ffffff"/>
+  </g>
+
+  <text x="425" y="105" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#0284c7" text-anchor="middle" letter-spacing="2">
+    🐍 CONTRIBUTION GRID SNAKE // FEEDING ON COMMITS
+  </text>
+  <text x="425" y="122" font-family="'Fira Code', monospace" font-size="9.5" fill="#94a3b8" text-anchor="middle">
+    Automated Chrono-Crawler active on tachyon-ops/tachyon-ops
+  </text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="100%" height="auto">
+  <defs>
+    <linearGradient id="isoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#075985" />
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <style>
+      @keyframes floatIso {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      .anim-float { animation: floatIso 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="480" height="280" rx="10" fill="url(#isoBg)" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title Header -->
+  <g transform="translate(24, 32)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Fira Code', monospace" font-size="14" font-weight="700" fill="#f0f6fc">
+      🧊 3D Isometric Commit Calendar
+    </text>
+    <text y="20" font-family="'Fira Code', monospace" font-size="10.5" fill="#8b949e">
+      Full-Year Temporal Landscape // lowlighter/metrics
+    </text>
+  </g>
+
+  <!-- Isometric Voxel Cluster Representation -->
+  <g class="anim-float" transform="translate(240, 160)">
+    <!-- Central Cluster of Isometric Voxels -->
+    <!-- Cube 1 (Center) -->
+    <g transform="translate(0, -20)">
+      <polygon points="0,-16 28,0 0,16 -28,0" fill="url(#cubeTop)"/>
+      <polygon points="-28,0 0,16 0,44 -28,28" fill="url(#cubeLeft)"/>
+      <polygon points="0,16 28,0 28,28 0,44" fill="url(#cubeRight)"/>
+    </g>
+    <!-- Cube 2 (Left) -->
+    <g transform="translate(-40, 4)">
+      <polygon points="0,-12 20,0 0,12 -20,0" fill="#38bdf8"/>
+      <polygon points="-20,0 0,12 0,32 -20,20" fill="#0284c7"/>
+      <polygon points="0,12 20,0 20,20 0,32" fill="#0369a1"/>
+    </g>
+    <!-- Cube 3 (Right) -->
+    <g transform="translate(40, 4)">
+      <polygon points="0,-12 20,0 0,12 -20,0" fill="#22d3ee"/>
+      <polygon points="-20,0 0,12 0,32 -20,20" fill="#0891b2"/>
+      <polygon points="0,12 20,0 20,20 0,32" fill="#0e7490"/>
+    </g>
+    <!-- Cube 4 (Back) -->
+    <g transform="translate(0, -50)">
+      <polygon points="0,-10 18,0 0,10 -18,0" fill="#818cf8"/>
+      <polygon points="-18,0 0,10 0,26 -18,16" fill="#4f46e5"/>
+      <polygon points="0,10 18,0 18,16 0,26" fill="#4338ca"/>
+    </g>
+    <!-- Cube 5 (Front) -->
+    <g transform="translate(0, 24)">
+      <polygon points="0,-14 24,0 0,14 -24,0" fill="#34d399"/>
+      <polygon points="-24,0 0,14 0,36 -24,22" fill="#059669"/>
+      <polygon points="0,14 24,0 24,22 0,36" fill="#047857"/>
+    </g>
+  </g>
+
+  <!-- Status Footer -->
+  <g transform="translate(240, 252)" text-anchor="middle">
+    <text font-family="'Fira Code', monospace" font-size="10.5" fill="#00f5ff" font-weight="600" letter-spacing="1">
+      ⚡ ISO-CALENDAR INITIALIZING VIA GITHUB ACTIONS ⚡
+    </text>
+  </g>
+</svg>
