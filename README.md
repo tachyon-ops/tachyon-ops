@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/tachyon-ops">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Nuno+Ribeiro+%2F%2F+Head+of+Cloud+%26+Systems+Architect;Creator+of+Library+of+Alexandria+(Alexander's+Library);Founder+%E2%80%A2+mondar.ch+%E2%80%A2+fromtribe.com+%E2%80%A2+nuuno.art;Streaming+Millions+of+Telemetry+Events%2FSec+%E2%80%A2+Rust+%26+TS;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Nuno+Ribeiro+%2F%2F+Head+of+Cloud+%26+Systems+Architect;Personal+R%26D+Playground+%26+Open-Source+Lab;Creator+of+Library+of+Alexandria+(Alexander's+Library);Streaming+Millions+of+Telemetry+Events%2FSec+%E2%80%A2+Rust+%26+TS;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
   </a>
 
   <p>
@@ -15,16 +15,13 @@
       <img src="https://img.shields.io/badge/Alexander's_Library-Live_App-00f5ff?style=for-the-badge&logo=bookstack&logoColor=black&labelColor=0d1117" alt="Library of Alexandria" />
     </a>
     <a href="https://nuuno.art" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black&labelColor=0d1117" alt="nuuno.art" />
-    </a>
-    <a href="https://mondar.ch" target="_blank">
-      <img src="https://img.shields.io/badge/Venture-mondar.ch-10b981?style=for-the-badge&logo=sparkles&logoColor=black&labelColor=0d1117" alt="mondar.ch" />
-    </a>
-    <a href="https://fromtribe.com" target="_blank">
-      <img src="https://img.shields.io/badge/Marketplace-fromtribe.com-f59e0b?style=for-the-badge&logo=shopify&logoColor=black&labelColor=0d1117" alt="fromtribe.com" />
+      <img src="https://img.shields.io/badge/Creative_Lab-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black&labelColor=0d1117" alt="nuuno.art" />
     </a>
     <a href="https://github.com/sponsors/tachyon-ops" target="_blank">
       <img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0d1117" alt="GitHub Sponsors" />
+    </a>
+    <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url&ssrt=1792150968588" target="_blank">
+      <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0d1117" alt="Donate" />
     </a>
     <a href="https://calendly.com/ribeiron" target="_blank">
       <img src="https://img.shields.io/badge/Consulting-Book_Session-eab308?style=for-the-badge&logo=calendly&logoColor=black&labelColor=0d1117" alt="Consulting" />
@@ -40,22 +37,22 @@
 
 ```yaml
 ┌──[ Tachyon Telemetry Station // Nuno Ribeiro @ tachyon-ops ]
-│  ⚡ Leadership   : Head of Cloud • Systems & Graphics Architect • Tech Entrepreneur
+│  ⚡ Role         : Head of Cloud • Systems & Graphics Architect
+│  🧪 Playground   : Open-Source R&D Lab • AI Research Pipelines • 3D/Physics & Rust Experiments
 │  🏛️ Flagship     : Library of Alexandria (Alexander's Library) — Open Scientific Knowledge & T1–T6 Evidence Grading
-│  🏢 Ventures     : Mondar (mondar.ch) • From Tribe (fromtribe.com) • Portfolio & Art (nuuno.art)
 │  🚀 Throughput   : High-Throughput Cloud & Reactive Streams (Millions of Telemetry Events/sec)
 │  🌐 Protocols    : Kubernetes • Terraform • LoRaWAN • SiLA 2 (Lab Automation) • MQTT • WebSockets • gRPC
 │  🧊 Graphics     : Extreme Performance 2D/3D Canvas & Physics Simulations (1M+ Data Points at 60 FPS)
 │  🌍 Global Duty  : UN Volunteer — United Nations Development Programme (UNDP Tech Radar)
 │  ⚔️ Core Relics  : TypeScript • Rust • WebGPU / WASM • Go • C++20 • Postgres
-│  📊 Chrono Stats : 4,500+ Annual Contributions across Open Source, Cloud & Venture Platforms
-│  🔋 System State : 100% Core Nominal | Fueled by Hard Engineering, Executive Strategy & Open Knowledge
+│  📊 Chrono Stats : 4,500+ Annual Contributions across Cloud, Systems & Experimental Repos
+│  🔋 System State : 100% Core Nominal | Fueled by Curiosity, Hard Engineering & Open Human Knowledge
 └──[ Transmission  : "What the record actually says, and how strongly." ]
 ```
 
 ---
 
-### 🏛️ Flagship Dream Project // Library of Alexandria (*Alexander's Library*)
+### 🏛️ Flagship Open-Science Playground // Library of Alexandria (*Alexander's Library*)
 
 <table>
   <tr>
@@ -89,26 +86,10 @@
 
 ---
 
-### 🏢 Business Endeavours, Cloud Leadership & Advisory
+### 🧪 Cloud Leadership, Advisory & Open-Source Playground
 
 <div align="center">
   <table>
-    <tr>
-      <td width="50%" align="left" valign="top">
-        <h4>🇨🇭 <a href="https://mondar.ch" target="_blank">Mondar (<code>mondar.ch</code>)</a> — Zurich Property &amp; Facility Operations</h4>
-        <p>Curated property and facility services platform in Zurich — combining SLA-driven residential &amp; commercial care, end-of-tenancy move-out cleaning with a 100% handover guarantee, property maintenance, and landscaping with instant digital booking and concierge workflows.</p>
-        <a href="https://mondar.ch" target="_blank">
-          <img src="https://img.shields.io/badge/Platform-mondar.ch-10b981?style=for-the-badge&logo=googlechrome&logoColor=black" alt="mondar.ch" />
-        </a>
-      </td>
-      <td width="50%" align="left" valign="top">
-        <h4>🌿 <a href="https://fromtribe.com" target="_blank">From Tribe (<code>fromtribe.com</code>)</a> — Curated European Marketplace</h4>
-        <p>Multi-vendor marketplace uniting independent European artisans, small-batch makers, and sustainable brands under one roof (<em>"Small brands. Great discoveries."</em>).</p>
-        <a href="https://fromtribe.com" target="_blank">
-          <img src="https://img.shields.io/badge/Marketplace-fromtribe.com-f59e0b?style=for-the-badge&logo=shopify&logoColor=black" alt="fromtribe.com" />
-        </a>
-      </td>
-    </tr>
     <tr>
       <td width="50%" align="left" valign="top">
         <h4>🚀 Head of Cloud &amp; Executive Technical Advisory</h4>
