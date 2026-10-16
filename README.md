@@ -2,26 +2,29 @@
 
   <!-- Animated Hero Banner -->
   <a href="https://github.com/tachyon-ops">
-    <img src="assets/hero-banner.svg" alt="Link // tachyon-ops Hero Banner" width="100%" />
+    <img src="assets/hero-banner.svg" alt="Nuno Ribeiro // tachyon-ops Hero Banner" width="100%" />
   </a>
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/tachyon-ops">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Initializing+Tachyon+Telemetry+Core...;Head+of+Cloud+%2F%2F+Systems+%26+Graphics+Architect;Streaming+Millions+of+Telemetry+Events%2FSec;LoRaWAN+%E2%80%A2+SiLA+2+%E2%80%A2+MQTT+%E2%80%A2+WebSockets;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Nuno+Ribeiro+%2F%2F+Systems+%26+Graphics+Architect;Creator+of+Library+of+Alexandria+(Alexander's+Library);Head+of+Cloud+%E2%80%A2+Streaming+Millions+of+Events%2FSec;LoRaWAN+%E2%80%A2+SiLA+2+%E2%80%A2+MQTT+%E2%80%A2+WebSockets;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
   </a>
 
   <p>
-    <a href="https://github.com/tachyon-ops?tab=repositories">
-      <img src="https://img.shields.io/badge/Repositories-85+-00f5ff?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117" alt="Repositories" />
+    <a href="https://library-of-alexandria-ruby.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/Alexander's_Library-Live_App-00f5ff?style=for-the-badge&logo=bookstack&logoColor=black&labelColor=0d1117" alt="Library of Alexandria" />
     </a>
-    <a href="https://calendly.com/ribeiron" target="_blank">
-      <img src="https://img.shields.io/badge/Consulting-Book_Session-38bdf8?style=for-the-badge&logo=calendly&logoColor=black&labelColor=0d1117" alt="Consulting" />
+    <a href="https://nuuno.art" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black&labelColor=0d1117" alt="nuuno.art" />
     </a>
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url" target="_blank">
+    <a href="https://github.com/sponsors/tachyon-ops" target="_blank">
+      <img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0d1117" alt="GitHub Sponsors" />
+    </a>
+    <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url&ssrt=1792150968588" target="_blank">
       <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0d1117" alt="Donate" />
     </a>
-    <a href="https://github.com/tachyon-ops">
-      <img src="https://img.shields.io/badge/Timezone-Europe%2FZurich-eab308?style=for-the-badge&logo=clock&logoColor=black&labelColor=0d1117" alt="Zurich Time" />
+    <a href="https://calendly.com/ribeiron" target="_blank">
+      <img src="https://img.shields.io/badge/Consulting-Book_Session-eab308?style=for-the-badge&logo=calendly&logoColor=black&labelColor=0d1117" alt="Consulting" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=tachyon-ops&color=00f5ff&style=for-the-badge&label=CHRONO+TELEMETRY+HITS" alt="Visitor Counter" />
   </p>
@@ -33,18 +36,52 @@
 ### 📡 Telemetry Station // Chrono-Terminal HUD
 
 ```yaml
-┌──[ Tachyon Telemetry Station // Link @ tachyon-ops ]
-│  ⚡ Role         : Head of Cloud & Telemetry Architect
+┌──[ Tachyon Telemetry Station // Nuno Ribeiro @ tachyon-ops ]
+│  ⚡ Role         : Head of Cloud & Telemetry Architect • Creator of Library of Alexandria
+│  🏛️ Flagship     : Library of Alexandria (Alexander's Library) — Open Scientific Knowledge & T1–T6 Evidence Grading
 │  🚀 Throughput   : High-Throughput Reactive Streams (Millions of Telemetry Events/sec)
 │  🌐 Protocols    : LoRaWAN • SiLA 2 (Lab Automation) • MQTT • WebSockets • gRPC
 │  🧊 Graphics     : Extreme Performance 2D & 3D Canvas (1M+ Data Points / Dots at 60 FPS)
-│  🏛️ Domains      : Industrial IoT • Smart Meter Systems • Fintech Telemetry • Lab Robotics
-│  🇺🇳 Global Duty  : UN Volunteer — United Nations Development Programme (UNDP Tech Radar)
-│  ⚔️ Core Relics  : Rust (Master Sword) • WebGPU / WASM • Go • C++ • TypeScript
-│  📊 Chrono Stats : 3,079+ Annual Contributions (3,000+ in Private Enterprise & Cloud Repos)
-│  🔋 System State : 100% Core Nominal | Fueled by Hard, Impossible Engineering Challenges
-└──[ Transmission  : "If it doesn't push the hardware to its limits, it's not fast enough." ]
+│  🌍 Global Duty  : UN Volunteer — United Nations Development Programme (UNDP Tech Radar)
+│  ⚔️ Core Relics  : TypeScript • Rust • WebGPU / WASM • Go • C++ • Postgres
+│  📊 Chrono Stats : 4,500+ Annual Contributions across Open Source, Cloud & Enterprise Repos
+│  🔋 System State : 100% Core Nominal | Fueled by Hard Engineering & Open Human Knowledge
+└──[ Transmission  : "What the record actually says, and how strongly." ]
 ```
+
+---
+
+### 🏛️ Flagship Dream Project // Library of Alexandria (*Alexander's Library*)
+
+<table>
+  <tr>
+    <td width="100%">
+      <div align="left">
+        <h3>🏛️ <a href="https://github.com/tachyon-ops/library-of-alexandria">Library of Alexandria (<i>Alexander's Library</i>)</a> — Open Scientific Record &amp; Evidence Grading</h3>
+        <p>
+          An open-source tree of knowledge filled by autonomous AI research workers. Ask any scientific or medical question—research workers harvest primary literature (<strong>Europe PMC, OpenAlex</strong>), clinical trial registries (<strong>ClinicalTrials.gov</strong>), and the live web; extract concrete claims; deterministically compute an evidence grade (<code>T1</code>–<code>T6</code>) in pure code from the study design and sample size behind each claim; and label what is disputed, fringe, or marketed ahead of evidence (<code>commercial_hype</code>).
+        </p>
+        <p>
+          <em>Frontier and minority ideas are kept visible and clearly labelled, never silently filtered out. The grade tells you how much weight a claim can bear.</em>
+        </p>
+        <p>
+          <a href="https://library-of-alexandria-ruby.vercel.app">
+            <img src="https://img.shields.io/badge/Live_Library-library--of--alexandria-00f5ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Library" />
+          </a>
+          <a href="https://github.com/tachyon-ops/library-of-alexandria">
+            <img src="https://img.shields.io/badge/Source_Repo-tachyon--ops%2Flibrary--of--alexandria-1e293b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
+          </a>
+          <a href="https://github.com/sponsors/tachyon-ops">
+            <img src="https://img.shields.io/badge/Fund_Research_Runs-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+          </a>
+          <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url&ssrt=1792150968588">
+            <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate via PayPal" />
+          </a>
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -55,15 +92,21 @@
     <tr>
       <td width="50%" align="center" valign="top">
         <h4>🚀 Cloud &amp; Telemetry Architecture Consulting</h4>
-        <p>Available for high-impact advisory &amp; consulting on <strong>Millions-Event Reactive Streams, LoRaWAN / SiLA 2 / MQTT protocols, and 1M+ Dot 2D/3D Canvas visualization</strong>.</p>
+        <p>Available for high-impact advisory &amp; consulting on <strong>Millions-Event Reactive Streams, LoRaWAN / SiLA 2 / MQTT protocols, AI Research Pipelines, and 1M+ Dot 2D/3D Canvas visualization</strong>.</p>
         <a href="https://calendly.com/ribeiron" target="_blank">
           <img src="https://img.shields.io/badge/Book_Session-Calendly-00f5ff?style=for-the-badge&logo=calendly&logoColor=black" alt="Book on Calendly" />
         </a>
+        <a href="https://nuuno.art" target="_blank">
+          <img src="https://img.shields.io/badge/Website-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black" alt="nuuno.art" />
+        </a>
       </td>
       <td width="50%" align="center" valign="top">
-        <h4>💖 Fuel the Open Source Engines</h4>
-        <p>If my open source libraries (<code>undp-radar</code>, <code>ruinx</code>, <code>kiss-react-state</code>, <code>react_vue_ts</code>) helped your projects, consider buying a coffee or sponsoring my work!</p>
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url" target="_blank">
+        <h4>💖 Fuel Open Knowledge &amp; Open Source</h4>
+        <p>Every branch researched in <strong>Library of Alexandria</strong> uses paid model and web-search compute. If my work (<code>library-of-alexandria</code>, <code>undp-radar</code>, <code>ruinx</code>, <code>react_vue_ts</code>) is meaningful to you, please consider sponsoring!</p>
+        <a href="https://github.com/sponsors/tachyon-ops" target="_blank">
+          <img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+        </a>
+        <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url&ssrt=1792150968588" target="_blank">
           <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate with PayPal" />
         </a>
       </td>
