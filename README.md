@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/tachyon-ops">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Nuno+Ribeiro+%2F%2F+Systems+%26+Graphics+Architect;Creator+of+Library+of+Alexandria+(Alexander's+Library);Head+of+Cloud+%E2%80%A2+Streaming+Millions+of+Events%2FSec;LoRaWAN+%E2%80%A2+SiLA+2+%E2%80%A2+MQTT+%E2%80%A2+WebSockets;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=Nuno+Ribeiro+%2F%2F+Head+of+Cloud+%26+Systems+Architect;Creator+of+Library+of+Alexandria+(Alexander's+Library);Founder+%E2%80%A2+mondar.ch+%E2%80%A2+fromtribe.com+%E2%80%A2+nuuno.art;Streaming+Millions+of+Telemetry+Events%2FSec+%E2%80%A2+Rust+%26+TS;Rendering+1M%2B+Dots+on+2D%2F3D+Canvas+at+60+FPS;UN+Volunteer+(UNDP+Tech+Radar)+%E2%80%A2+15+Years+XP+%E2%9A%94%EF%B8%8F" alt="Typing Header" />
   </a>
 
   <p>
@@ -17,11 +17,14 @@
     <a href="https://nuuno.art" target="_blank">
       <img src="https://img.shields.io/badge/Portfolio-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black&labelColor=0d1117" alt="nuuno.art" />
     </a>
+    <a href="https://mondar.ch" target="_blank">
+      <img src="https://img.shields.io/badge/Venture-mondar.ch-10b981?style=for-the-badge&logo=sparkles&logoColor=black&labelColor=0d1117" alt="mondar.ch" />
+    </a>
+    <a href="https://fromtribe.com" target="_blank">
+      <img src="https://img.shields.io/badge/Marketplace-fromtribe.com-f59e0b?style=for-the-badge&logo=shopify&logoColor=black&labelColor=0d1117" alt="fromtribe.com" />
+    </a>
     <a href="https://github.com/sponsors/tachyon-ops" target="_blank">
       <img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0d1117" alt="GitHub Sponsors" />
-    </a>
-    <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=D3J2WXTXLAWK8&source=url&ssrt=1792150968588" target="_blank">
-      <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white&labelColor=0d1117" alt="Donate" />
     </a>
     <a href="https://calendly.com/ribeiron" target="_blank">
       <img src="https://img.shields.io/badge/Consulting-Book_Session-eab308?style=for-the-badge&logo=calendly&logoColor=black&labelColor=0d1117" alt="Consulting" />
@@ -37,15 +40,16 @@
 
 ```yaml
 ┌──[ Tachyon Telemetry Station // Nuno Ribeiro @ tachyon-ops ]
-│  ⚡ Role         : Head of Cloud & Telemetry Architect • Creator of Library of Alexandria
+│  ⚡ Leadership   : Head of Cloud • Systems & Graphics Architect • Tech Entrepreneur
 │  🏛️ Flagship     : Library of Alexandria (Alexander's Library) — Open Scientific Knowledge & T1–T6 Evidence Grading
-│  🚀 Throughput   : High-Throughput Reactive Streams (Millions of Telemetry Events/sec)
-│  🌐 Protocols    : LoRaWAN • SiLA 2 (Lab Automation) • MQTT • WebSockets • gRPC
-│  🧊 Graphics     : Extreme Performance 2D & 3D Canvas (1M+ Data Points / Dots at 60 FPS)
+│  🏢 Ventures     : Mondar (mondar.ch) • From Tribe (fromtribe.com) • Portfolio & Art (nuuno.art)
+│  🚀 Throughput   : High-Throughput Cloud & Reactive Streams (Millions of Telemetry Events/sec)
+│  🌐 Protocols    : Kubernetes • Terraform • LoRaWAN • SiLA 2 (Lab Automation) • MQTT • WebSockets • gRPC
+│  🧊 Graphics     : Extreme Performance 2D/3D Canvas & Physics Simulations (1M+ Data Points at 60 FPS)
 │  🌍 Global Duty  : UN Volunteer — United Nations Development Programme (UNDP Tech Radar)
-│  ⚔️ Core Relics  : TypeScript • Rust • WebGPU / WASM • Go • C++ • Postgres
-│  📊 Chrono Stats : 4,500+ Annual Contributions across Open Source, Cloud & Enterprise Repos
-│  🔋 System State : 100% Core Nominal | Fueled by Hard Engineering & Open Human Knowledge
+│  ⚔️ Core Relics  : TypeScript • Rust • WebGPU / WASM • Go • C++20 • Postgres
+│  📊 Chrono Stats : 4,500+ Annual Contributions across Open Source, Cloud & Venture Platforms
+│  🔋 System State : 100% Core Nominal | Fueled by Hard Engineering, Executive Strategy & Open Knowledge
 └──[ Transmission  : "What the record actually says, and how strongly." ]
 ```
 
@@ -85,24 +89,40 @@
 
 ---
 
-### 💼 Architecture Consulting & Open Source Support
+### 🏢 Business Endeavours, Cloud Leadership & Advisory
 
 <div align="center">
   <table>
     <tr>
-      <td width="50%" align="center" valign="top">
-        <h4>🚀 Cloud &amp; Telemetry Architecture Consulting</h4>
-        <p>Available for high-impact advisory &amp; consulting on <strong>Millions-Event Reactive Streams, LoRaWAN / SiLA 2 / MQTT protocols, AI Research Pipelines, and 1M+ Dot 2D/3D Canvas visualization</strong>.</p>
-        <a href="https://calendly.com/ribeiron" target="_blank">
-          <img src="https://img.shields.io/badge/Book_Session-Calendly-00f5ff?style=for-the-badge&logo=calendly&logoColor=black" alt="Book on Calendly" />
-        </a>
-        <a href="https://nuuno.art" target="_blank">
-          <img src="https://img.shields.io/badge/Website-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black" alt="nuuno.art" />
+      <td width="50%" align="left" valign="top">
+        <h4>🇨🇭 <a href="https://mondar.ch" target="_blank">Mondar (<code>mondar.ch</code>)</a> — Zurich Property &amp; Facility Operations</h4>
+        <p>Curated property and facility services platform in Zurich — combining SLA-driven residential &amp; commercial care, end-of-tenancy move-out cleaning with a 100% handover guarantee, property maintenance, and landscaping with instant digital booking and concierge workflows.</p>
+        <a href="https://mondar.ch" target="_blank">
+          <img src="https://img.shields.io/badge/Platform-mondar.ch-10b981?style=for-the-badge&logo=googlechrome&logoColor=black" alt="mondar.ch" />
         </a>
       </td>
-      <td width="50%" align="center" valign="top">
+      <td width="50%" align="left" valign="top">
+        <h4>🌿 <a href="https://fromtribe.com" target="_blank">From Tribe (<code>fromtribe.com</code>)</a> — Curated European Marketplace</h4>
+        <p>Multi-vendor marketplace uniting independent European artisans, small-batch makers, and sustainable brands under one roof (<em>"Small brands. Great discoveries."</em>).</p>
+        <a href="https://fromtribe.com" target="_blank">
+          <img src="https://img.shields.io/badge/Marketplace-fromtribe.com-f59e0b?style=for-the-badge&logo=shopify&logoColor=black" alt="fromtribe.com" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left" valign="top">
+        <h4>🚀 Head of Cloud &amp; Executive Technical Advisory</h4>
+        <p>15+ years scaling cloud infrastructure, engineering organizations, and real-time distributed telemetry systems. Available for executive advisory on <strong>Cloud Strategy, High-Throughput Reactive Streams, IoT/Lab Protocols, and 3D/Physics WebGL/Canvas UIs</strong>.</p>
+        <a href="https://calendly.com/ribeiron" target="_blank">
+          <img src="https://img.shields.io/badge/Book_Advisory-Calendly-00f5ff?style=for-the-badge&logo=calendly&logoColor=black" alt="Book on Calendly" />
+        </a>
+        <a href="https://nuuno.art" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-nuuno.art-38bdf8?style=for-the-badge&logo=safari&logoColor=black" alt="nuuno.art" />
+        </a>
+      </td>
+      <td width="50%" align="left" valign="top">
         <h4>💖 Fuel Open Knowledge &amp; Open Source</h4>
-        <p>Every branch researched in <strong>Library of Alexandria</strong> uses paid model and web-search compute. If my work (<code>library-of-alexandria</code>, <code>undp-radar</code>, <code>ruinx</code>, <code>react_vue_ts</code>) is meaningful to you, please consider sponsoring!</p>
+        <p>Every branch researched in <strong>Library of Alexandria</strong> uses paid model and web-search compute. If my open-source work (<code>library-of-alexandria</code>, <code>undp-radar</code>, <code>ruinx</code>, <code>react_vue_ts</code>) is meaningful to you, consider sponsoring!</p>
         <a href="https://github.com/sponsors/tachyon-ops" target="_blank">
           <img src="https://img.shields.io/badge/Sponsor-GitHub_Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
         </a>
