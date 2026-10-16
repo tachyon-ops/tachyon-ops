@@ -2,7 +2,7 @@
 
   <!-- Executive Hero Banner -->
   <a href="https://github.com/tachyon-ops">
-    <img src="assets/hero-banner.svg" alt="Nuno Ribeiro // Head of Cloud & Systems Architect" width="100%" />
+    <img src="assets/executive-banner.svg" alt="Nuno Ribeiro // Head of Cloud & Systems Architect" width="100%" />
   </a>
 
   <p align="center">
@@ -229,38 +229,6 @@
 <div align="center">
   <!-- Scaled-down, compact activity card -->
   <img src="github-metrics.svg" alt="GitHub Core Metrics" width="460" style="max-width: 90%; border-radius: 8px;" />
-</div>
-
----
-
-### Zurich Tech Ecosystem & Events Radar
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="25%" align="center">
-        <h4>Rust Zürisee</h4>
-        <p>Zurich Rust developer meetups &amp; deep-tech systems discussions.</p>
-        <a href="https://www.meetup.com/Rust-Zuerisee/"><img src="https://img.shields.io/badge/Community-Rust_Zürich-DEA584?style=flat-square&logo=rust&logoColor=white" /></a>
-      </td>
-      <td width="25%" align="center">
-        <h4>AI+X Summit</h4>
-        <p>Flagship Swiss AI, ML &amp; Systems summit hosted at StageOne, Oerlikon.</p>
-        <img src="https://img.shields.io/badge/Venue-StageOne_Oerlikon-00f5ff?style=flat-square" />
-      </td>
-      <td width="25%" align="center">
-        <h4>SwissDev Events</h4>
-        <p>Curated radar for developer conferences, hackathons, and cloud summits.</p>
-        <img src="https://img.shields.io/badge/Region-Zurich_CH-eab308?style=flat-square" />
-      </td>
-      <td width="25%" align="center">
-        <h4>Startupticker.ch</h4>
-        <p>National hub for Swiss deep-tech innovation, IoT, and high-frequency news.</p>
-        <img src="https://img.shields.io/badge/Focus-Deep_Tech-10b981?style=flat-square" />
-      </td>
-    </tr>
-  </table>
-  <sub>Based in Zurich, Switzerland. Open to discussions on high-throughput systems, low-latency telemetry, and cloud architecture.</sub>
 </div>
 
 ---

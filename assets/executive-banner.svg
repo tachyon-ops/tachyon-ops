@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient: Deep Swiss Slate / Obsidian -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#080D1A" />
+    </linearGradient>
+
+    <!-- Subtle Slate Accent Gradient -->
+    <linearGradient id="subtleAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+
+    <!-- Border Linear Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Minimal Dot Matrix Pattern -->
+    <pattern id="dotPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#94A3B8" opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="960" height="200" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1" />
+  
+  <!-- Architectural Dot Pattern -->
+  <rect width="960" height="200" rx="12" fill="url(#dotPattern)" />
+
+  <!-- Subtle Top Accent Rule -->
+  <rect x="380" y="1" width="200" height="2" rx="1" fill="url(#subtleAccent)" opacity="0.8" />
+
+  <!-- Swiss Architectural Content Layout -->
+  <g text-anchor="middle">
+    <!-- Super-title / Domain Focus -->
+    <text x="480" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="3.5">
+      CLOUD ARCHITECTURE &amp; DISTRIBUTED SYSTEMS
+    </text>
+
+    <!-- Main Executive Name -->
+    <text x="480" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" fill="#F8FAFC" letter-spacing="1.5">
+      Nuno Ribeiro
+    </text>
+
+    <!-- Role & Scope -->
+    <text x="480" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="500" fill="#CBD5E1" letter-spacing="0.5">
+      Head of Cloud &amp; Systems Architect
+      <tspan fill="#64748B" font-weight="300"> • </tspan>
+      15+ Years Technical Leadership
+      <tspan fill="#64748B" font-weight="300"> • </tspan>
+      Zurich, Switzerland
+    </text>
+
+    <!-- Metric / Capability Pills -->
+    <g transform="translate(480, 156)">
+      <!-- Pill 1: High-Throughput Streams -->
+      <g transform="translate(-305, 0)">
+        <rect x="-85" y="-13" width="170" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#E2E8F0">
+          High-Throughput Streams
+        </text>
+      </g>
+
+      <!-- Pill 2: Real-Time Telemetry -->
+      <g transform="translate(-100, 0)">
+        <rect x="-85" y="-13" width="170" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#E2E8F0">
+          Distributed Telemetry
+        </text>
+      </g>
+
+      <!-- Pill 3: IoT & Lab Protocols -->
+      <g transform="translate(100, 0)">
+        <rect x="-85" y="-13" width="170" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#E2E8F0">
+          Kubernetes &amp; Protocols
+        </text>
+      </g>
+
+      <!-- Pill 4: UN Volunteer -->
+      <g transform="translate(295, 0)">
+        <rect x="-80" y="-13" width="160" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+        <text x="0" y="4" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#38BDF8">
+          UN Volunteer (UNDP)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
